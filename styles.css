@@ -1,3 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+html{
+    text: black !important;
+    font-family: 'IBM Plex Sans', sans-serif !important;
+}
+
+.profile-container {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.profile-picture {
+    margin-bottom: 16px !important; /* Consistent margin */
+}
+
+.profile-image {
+    border-radius: 50% !important;
+    object-fit: contain !important;
+    inline-size: 96px !important;
+    block-size: 96px !important;
+    margin-top: 7px !important;
+}
+
+.profile-title {
+    display: flex !important;
+    align-items: center !important;
+}
+
+.profile-nav {
+    text-overflow: ellipsis !important;
+    font-size: 1.125rem !important; 
+    line-height: 1.5 !important;
+    font-weight: 700 !important; 
+    color: #000000 !important; 
+}
+
+.profile-description {
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+    text-align: center !important; 
+}
+
+.profile-description-text {
+    font-size: 1rem !important; 
+    font-weight: 400 !important; 
+    color: #000000 !important; 
+}
+
+
 .jMVsRK {
   position: fixed;
   width: 100%;
@@ -21,7 +73,6 @@
   .jMVsRK {
     padding-left: 5%;
     padding-right: 5%;
-    padding-top: 12px;
     padding-bottom: 12px;
     margin-top: 15px;
     margin-bottom: 15px;
